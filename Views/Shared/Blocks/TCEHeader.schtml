@@ -1,0 +1,25 @@
+<section class="hero-header parallax">
+  <div class="hero-intro">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 px-0 mb-1 mb-lg-0">
+          <h1>Coco B Storage Project</h1>
+        </div>
+        <div class="col-lg-5 px-0 text-lg-end align-self-center d-flex align-items-center justify-content-lg-end"> <img class="project-icon" src="https://www.tcenergy.com/siteassets/icons/tce-natural-gas-icon-white.svg" alt="Power icon" />
+          <h5>A natural Gas project</h5>
+        </div>
+      </div>
+    </div>
+    <hr class="blue-hr" />
+    <div class="overview">
+      <div class="overview-text">
+       <p>TC Energy is a leading North American energy infrastructure company focused on natural gas and power operations. </p>
+<p>As part of its efforts to enhance the reliability, safety, and integrity of its natural gas pipeline systems, TC Energy is undertaking the Coco B Storage Project. This project involves drilling two replacement wells and adding pipeline in West Virginia at one of TC Energy's <a href="https://www.tcenergy.com/operations/natural-gas/columbia-gas-transmission-storage/">Columbia Gas Transmission Storage</a> facilities. </p>
+<p>The <a href="https://www.tcenergy.com/operations/natural-gas/columbia-gas-transmission/">Columbia Gas Transmission</a> system spans multiple states, providing a critical link between major natural gas basins and markets. With over 11,800 miles of pipeline and numerous storage fields, the system helps ensure reliable energy supply, even during periods of high demand. </p>
+<p>TC Energy expects the Coco B Storage Project to be completed by the end of 2024. </p>
+
+      </div>
+      <div class="blue-nav"><a class="blue-nav-item" href="#timelines">Project timeline</a><a class="blue-nav-item" href="#construction">Construction</a><a class="blue-nav-item" href="#documents">Map</a><a class="blue-nav-item" href="#contact">Contact</a> </div>
+    </div>
+    <img class="down-arrow" src="https://www.tcenergy.com/siteassets/brand/graphic-elements/tce-white-arrows-down.svg" alt="Down arrow"> </div>
+</section>
