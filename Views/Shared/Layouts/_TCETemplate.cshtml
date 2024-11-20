@@ -1,10 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -819,8 +813,7 @@ a.blue-nav-item:hover {
 h2, h3, h4 {
   color: #191919;
 }
-    </style>
-    <style>
+
 	   .timeline-bg {
 		  background: linear-gradient(to right, #191919, #474747);
 	   }
@@ -850,8 +843,7 @@ h2, h3, h4 {
 		  background-color: #0D64EF;
 		  border-bottom: 1px solid rgba(255, 250, 250, .3);
 	   }
-    </style>
-    <style>
+
 @@media(min-width: 991px) {
 .map-center {
 align-items: center;
@@ -861,13 +853,11 @@ align-items: center;
 .common-header h3 {
 font-weight: 700;
 }
-    </style>
-    <style>
+
 	   .construction-bg {
 		  background: linear-gradient(0deg, rgba(246,246,246,1) 15%, rgba(196,197,199,1) 100%);
 	   }
-    </style>
-    <style>
+
 			   .htmlblock-paddingTop {
 				  padding-top: 250px;
 			   }
@@ -882,9 +872,7 @@ font-weight: 700;
 #documents {
 height: 0px;
 }
-    </style>
-    </style>
-    <style>
+
 .regulatory-bg {
     background: linear-gradient(to right, #191919, #474747);
     background-size: cover;
@@ -925,16 +913,14 @@ color: #191919 !important;
 .dark-theme .email:before {
     content: url(/Static/images/svg/Functional/icn_email_charcoal50.svg) !important;
 }
-    </style>
-    <style>
+
 	   .contact-bg {
 		  background-image: url(/siteassets/brand/graphic-elements/tce-emblem-white.svg), linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 		  background-size: contain;
 		  background-repeat: no-repeat;
 		  background-position: 70%;
 	   }
-    </style>
-    <style>
+
 			   .htmlblock-paddingTop {
 				  padding-top: 250px;
 			   }
@@ -1039,28 +1025,7 @@ height: 1px;
 </head>
 
 <body>
-    <!-- Top of body content: START -->
-    <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMWFXW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
 
-    <script type="text/javascript">
-    window._monsido = window._monsido || {
-	   token: "RJLIOqzrkIoQ7xGcDRpvpg",
-	   statistics: {
-		  enabled: true,
-		  cookieLessTracking: true,
-		  documentTracking: {
-			 enabled: false,
-			 documentCls: "monsido_download",
-			 documentIgnoreCls: "monsido_ignore_download",
-			 documentExt: [],
-		  },
-	   },
-    };
-    </script>
-    <script type="text/javascript" async src="https://app-script.monsido.com/v2/monsido-script.js"></script>
-
-
-    <!-- Top of body content: END -->
     <!-- components/Nav-isolated/full-nav.php -->
     <header class="Header has-secondaryNav">
 	   <section>
@@ -2130,7 +2095,9 @@ height: 1px;
     </script>
     <main>
 
-
+	   <div class="container">
+		  @RenderBody()
+	   </div>
 
 	   <div class="u-overflow">
 		  <div class="HtmlBlock fullwidth col-lg-12 col-md-12 col-sm-12 col-xs-12 FullWidth ">
