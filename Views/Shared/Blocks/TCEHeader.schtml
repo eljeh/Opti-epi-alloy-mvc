@@ -21,5 +21,6 @@
       </div>
       <div class="blue-nav"><a class="blue-nav-item" href="#timelines">Project timeline</a><a class="blue-nav-item" href="#construction">Construction</a><a class="blue-nav-item" href="#documents">Map</a><a class="blue-nav-item" href="#contact">Contact</a> </div>
     </div>
-    <img class="down-arrow" src="https://www.tcenergy.com/siteassets/brand/graphic-elements/tce-white-arrows-down.svg" alt="Down arrow"> </div>
+    <img class="down-arrow" src="https://www.tcenergy.com/siteassets/brand/graphic-elements/tce-white-arrows-down.svg" alt="Down arrow" /> 
+  </div>
 </section>

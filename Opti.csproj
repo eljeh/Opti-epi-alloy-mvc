@@ -20,4 +20,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Translations\**\*" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="Views\Shared\Layouts\_TCTemplate.cshtml" />
+  </ItemGroup>
 </Project>
